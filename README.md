@@ -28,3 +28,11 @@ A cybersecurity learning project developed by a Computer Engineering student at 
 All experiments will be performed exclusively in isolated environments, intentionally vulnerable applications or authorized systems.
 
 This project is intended for educational and defensive-security purposes.
+
+## Current progress
+
+- Git and GitHub configured
+- Python 3 installed
+- Docker Engine and Docker Compose installed
+- First Docker containers successfully executed
+- Development environment documented
