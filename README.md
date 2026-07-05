@@ -36,3 +36,4 @@ This project is intended for educational and defensive-security purposes.
 - Docker Engine and Docker Compose installed
 - First Docker containers successfully executed
 - Development environment documented
+- GitHub Skills: Introduction to GitHub completed
