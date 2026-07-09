@@ -1,0 +1,10 @@
+Initial notes for the Linux filesystem and text processing lab.
+
+Observed suspicious IP addresses:
+- 203.0.113.10
+- 198.51.100.77
+
+Potential indicators:
+- repeated SSH failures
+- access to sensitive web paths
+- repeated login failures
