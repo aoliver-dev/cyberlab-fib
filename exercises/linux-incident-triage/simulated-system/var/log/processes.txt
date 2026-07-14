@@ -1,0 +1,7 @@
+USER       PID  %CPU %MEM  COMMAND
+root         1   0.0  0.1  /sbin/init
+root       522   0.0  0.2  /usr/sbin/sshd -D
+www-data   741   0.1  1.0  nginx: worker process
+analyst   1821   0.0  0.1  bash
+analyst   1873  35.8  2.4  /tmp/.cache-update --connect 203.0.113.55:4444
+root      1901   0.0  0.1  cron

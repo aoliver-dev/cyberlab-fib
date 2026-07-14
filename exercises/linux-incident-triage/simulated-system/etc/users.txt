@@ -1,0 +1,4 @@
+root:x:0:0:root:/root:/bin/bash
+analyst:x:1001:1001:Security Analyst:/home/analyst:/bin/bash
+backup:x:1002:1002:Backup Service:/var/lib/backup:/usr/sbin/nologin
+sysadmin:x:1003:1003:System Administrator:/home/sysadmin:/bin/bash
