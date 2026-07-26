@@ -1,0 +1,21 @@
+# Nmap 7.94SVN scan initiated Sun Jul 26 17:06:01 2026 as: nmap -sV -oN exercises/nmap-lab/results/db-scan.txt 172.32.0.30
+Nmap scan report for 172.32.0.30
+Host is up (0.00011s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3306-TCP:V=7.94SVN%I=7%D=7/26%Time=6A66225F%P=x86_64-pc-linux-gnu%r
+SF:(NULL,5E,"Z\0\0\0\n12\.3\.2-MariaDB-ubu2404\0&\0\0\0MVIL!\]5\.\0\xfe\xf
+SF:f-\x02\0\xff\x81\x15\0\0\0\0\0\0=\0\0\0'xH=:KLw6B-W\0mysql_native_passw
+SF:ord\0")%r(GenericLines,97,"Z\0\0\0\n12\.3\.2-MariaDB-ubu2404\0&\0\0\0MV
+SF:IL!\]5\.\0\xfe\xff-\x02\0\xff\x81\x15\0\0\0\0\0\0=\0\0\0'xH=:KLw6B-W\0m
+SF:ysql_native_password\x005\0\0\x01\xffj\x04#HY000Proxy\x20header\x20is\x
+SF:20not\x20accepted\x20from\x20172\.32\.0\.1")%r(LDAPBindReq,5E,"Z\0\0\0\
+SF:n12\.3\.2-MariaDB-ubu2404\x007\0\0\0V\)hSGIw>\0\xfe\xff-\x02\0\xff\x81\
+SF:x15\0\0\0\0\0\0=\0\0\0l'yQg1_is%\\!\0mysql_native_password\0")%r(afp,5E
+SF:,"Z\0\0\0\n12\.3\.2-MariaDB-ubu2404\0A\0\0\x008A~x`Wud\0\xfe\xff-\x02\0
+SF:\xff\x81\x15\0\0\0\0\0\0=\0\0\0vD/\]iw=egVW2\0mysql_native_password\0");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jul 26 17:06:17 2026 -- 1 IP address (1 host up) scanned in 16.21 seconds
