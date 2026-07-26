@@ -1,0 +1,40 @@
+services:
+  web:
+    image: nginx:alpine
+    container_name: nmap-web
+    networks:
+      nmap-net:
+        ipv4_address: 172.32.0.10
+
+  ssh:
+    image: linuxserver/openssh-server:latest
+    container_name: nmap-ssh
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - PASSWORD_ACCESS=true
+      - USER_NAME=student
+      - USER_PASSWORD=studentpass
+    networks:
+      nmap-net:
+        ipv4_address: 172.32.0.20
+
+  db:
+    image: mariadb:latest
+    container_name: nmap-db
+    environment:
+      - MARIADB_ROOT_PASSWORD=rootpass
+      - MARIADB_DATABASE=cyberlab
+      - MARIADB_USER=student
+      - MARIADB_PASSWORD=studentpass
+    networks:
+      nmap-net:
+        ipv4_address: 172.32.0.30
+
+networks:
+  nmap-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.32.0.0/24
+          gateway: 172.32.0.1

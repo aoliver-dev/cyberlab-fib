@@ -1,0 +1,39 @@
+# Nmap 7.94SVN scan initiated Sun Jul 26 17:11:36 2026 as: nmap -sV -oN exercises/nmap-lab/results/network-scan.txt 172.32.0.0/24
+Nmap scan report for Ubuntu-Jandro (172.32.0.1)
+Host is up (0.000081s latency).
+All 1000 scanned ports on Ubuntu-Jandro (172.32.0.1) are in ignored states.
+Not shown: 1000 closed tcp ports (conn-refused)
+
+Nmap scan report for 172.32.0.10
+Host is up (0.00023s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.31.2
+
+Nmap scan report for 172.32.0.20
+Host is up (0.00023s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+2222/tcp open  ssh     OpenSSH 10.3 (protocol 2.0)
+
+Nmap scan report for 172.32.0.30
+Host is up (0.000074s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3306-TCP:V=7.94SVN%I=7%D=7/26%Time=6A6623B0%P=x86_64-pc-linux-gnu%r
+SF:(NULL,5E,"Z\0\0\0\n12\.3\.2-MariaDB-ubu2404\0E\0\0\0#\$\(>=X#C\0\xfe\xf
+SF:f-\x02\0\xff\x81\x15\0\0\0\0\0\0=\0\0\0hc8\.y=aOI_%9\0mysql_native_pass
+SF:word\0")%r(GenericLines,97,"Z\0\0\0\n12\.3\.2-MariaDB-ubu2404\0E\0\0\0#
+SF:\$\(>=X#C\0\xfe\xff-\x02\0\xff\x81\x15\0\0\0\0\0\0=\0\0\0hc8\.y=aOI_%9\
+SF:0mysql_native_password\x005\0\0\x01\xffj\x04#HY000Proxy\x20header\x20is
+SF:\x20not\x20accepted\x20from\x20172\.32\.0\.1")%r(LDAPBindReq,5E,"Z\0\0\
+SF:0\n12\.3\.2-MariaDB-ubu2404\0V\0\0\0yk,8s\^\[1\0\xfe\xff-\x02\0\xff\x81
+SF:\x15\0\0\0\0\0\0=\0\0\0~L\?8:W,prlG\^\0mysql_native_password\0")%r(afp,
+SF:5E,"Z\0\0\0\n12\.3\.2-MariaDB-ubu2404\0`\0\0\0D\+Ilf:0}\0\xfe\xff-\x02\
+SF:0\xff\x81\x15\0\0\0\0\0\0=\0\0\0K;'N5\^\\0x2,\(\0mysql_native_password\
+SF:0");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jul 26 17:11:54 2026 -- 256 IP addresses (4 hosts up) scanned in 18.75 seconds
