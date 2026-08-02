@@ -1,0 +1,25 @@
+
+========================================
+SSH HARDENING CHECK
+========================================
+File: exercises/ssh-hardening/configs/sshd_config.hardened
+
+========================================
+AUTHENTICATION SETTINGS
+========================================
+[OK] PermitRootLogin is set to no
+[OK] PasswordAuthentication is set to no
+[OK] PubkeyAuthentication is set to yes
+[OK] PermitEmptyPasswords is set to no
+[OK] MaxAuthTries is set to 3
+
+========================================
+ACCESS RESTRICTIONS
+========================================
+[OK] AllowUsers is configured: deploy analyst
+
+========================================
+FEATURE REDUCTION
+========================================
+[OK] X11Forwarding is set to no
+[OK] AllowTcpForwarding is set to no

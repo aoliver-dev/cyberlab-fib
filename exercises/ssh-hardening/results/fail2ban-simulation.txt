@@ -1,0 +1,20 @@
+
+========================================
+FAIL2BAN-STYLE SSH BAN SIMULATION
+========================================
+File: exercises/ssh-hardening/logs/auth.log
+Threshold: 5 failed attempt(s)
+
+========================================
+FAILED ATTEMPTS BY IP
+========================================
+      5 203.0.113.10
+      5 198.51.100.77
+      2 192.0.2.44
+
+========================================
+BAN DECISIONS
+========================================
+[BAN] 203.0.113.10 exceeded threshold with 5 failed SSH attempt(s).
+[BAN] 198.51.100.77 exceeded threshold with 5 failed SSH attempt(s).
+[ALLOW] 192.0.2.44 has 2 failed SSH attempt(s), below threshold.
