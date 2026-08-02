@@ -1,0 +1,32 @@
+
+========================================
+CERTIFICATE INSPECTION
+========================================
+File: exercises/tls-certificates/certs/cyberlab.crt
+
+========================================
+IDENTITY
+========================================
+subject=C = ES, ST = Catalonia, L = Barcelona, O = CyberLab FIB, CN = cyberlab.local
+issuer=C = ES, ST = Catalonia, L = Barcelona, O = CyberLab FIB, CN = cyberlab.local
+
+========================================
+VALIDITY
+========================================
+notBefore=Aug  2 18:50:33 2026 GMT
+notAfter=Aug  9 18:50:33 2026 GMT
+
+========================================
+SERIAL NUMBER
+========================================
+serial=43BC0E66B83A52AFAD3F1DC85B196894C662BEC8
+
+========================================
+SHA-256 FINGERPRINT
+========================================
+sha256 Fingerprint=19:1B:27:2B:30:FF:56:0B:FF:85:83:B7:65:C4:7C:C2:96:43:DE:95:A1:A6:24:8B:10:8C:22:85:D3:84:2F:45
+
+========================================
+FILE SHA-256
+========================================
+57007b0a2103c3e1093cfaacbb3b1006a5374c0e2e280fc87e9fafe0b6db3123  exercises/tls-certificates/certs/cyberlab.crt
