@@ -1,0 +1,10 @@
+Port 22
+PermitRootLogin yes
+PasswordAuthentication yes
+PubkeyAuthentication yes
+PermitEmptyPasswords yes
+MaxAuthTries 10
+X11Forwarding yes
+AllowTcpForwarding yes
+ClientAliveInterval 0
+UsePAM yes

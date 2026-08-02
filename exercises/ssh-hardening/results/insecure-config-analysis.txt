@@ -1,0 +1,25 @@
+
+========================================
+SSH HARDENING CHECK
+========================================
+File: exercises/ssh-hardening/configs/sshd_config.insecure
+
+========================================
+AUTHENTICATION SETTINGS
+========================================
+[RISK] PermitRootLogin is set to yes. Expected: no
+[RISK] PasswordAuthentication is set to yes. Expected: no
+[OK] PubkeyAuthentication is set to yes
+[RISK] PermitEmptyPasswords is set to yes. Expected: no
+[RISK] MaxAuthTries is set to 10. Recommended: 3 or lower
+
+========================================
+ACCESS RESTRICTIONS
+========================================
+[WARNING] AllowUsers is not configured. Consider restricting SSH access to specific users.
+
+========================================
+FEATURE REDUCTION
+========================================
+[RISK] X11Forwarding is set to yes. Expected: no
+[RISK] AllowTcpForwarding is set to yes. Expected: no
