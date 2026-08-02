@@ -1,0 +1,48 @@
+
+========================================
+BASIC STATISTICS
+========================================
+File: exercises/password-attack-detection/logs/auth.log
+Total lines: 16
+Failed SSH logins: 12
+Successful SSH logins: 3
+
+========================================
+FAILED SSH LOGINS BY SOURCE IP
+========================================
+      5 203.0.113.10
+      5 198.51.100.77
+      2 192.0.2.44
+
+========================================
+FAILED SSH LOGINS BY USER
+========================================
+      5 admin
+      2 root
+      1 eric
+      1 diana
+      1 charlie
+      1 bob
+      1 alice
+
+========================================
+BRUTE FORCE DETECTION
+========================================
+[ALERT] Possible brute force from 203.0.113.10 against user 'admin' with 5 failed attempts.
+
+========================================
+PASSWORD SPRAYING DETECTION
+========================================
+[ALERT] Possible password spraying from 198.51.100.77 against 5 different users.
+
+========================================
+SUCCESSFUL LOGINS AFTER FAILURES
+========================================
+[WARNING] Successful login for user 'bob' from 198.51.100.77 after 5 failed attempt(s).
+[WARNING] Successful login for user 'root' from 192.0.2.44 after 2 failed attempt(s).
+
+========================================
+SENSITIVE FILE ACCESS
+========================================
+[CRITICAL] Access to /etc/shadow detected:
+Aug  2 10:25:01 server sudo: bob : TTY=pts/1 ; PWD=/home/bob ; USER=root ; COMMAND=/bin/cat /etc/shadow
