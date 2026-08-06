@@ -1,0 +1,9 @@
+Cookies and sessions status summary
+===================================
+
+dashboard-fake-cookie.txt: HTTP/1.0 401 Unauthorized
+dashboard-with-cookie.txt: HTTP/1.0 200 OK
+dashboard-without-cookie.txt: HTTP/1.0 401 Unauthorized
+insecure-cookie.txt: HTTP/1.0 200 OK
+login-success.txt: HTTP/1.0 200 OK
+secure-cookie.txt: HTTP/1.0 200 OK

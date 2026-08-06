@@ -1,0 +1,9 @@
+HTTP/1.0 200 OK
+Server: CyberLabSessionHTTP/1.0 Python/3.12.3
+Date: Thu, 06 Aug 2026 15:30:48 GMT
+Content-Type: text/plain
+Content-Length: 21
+X-Lab-Server: CyberLab FIB Sessions
+Set-Cookie: session=insecure-lab-session
+
+Insecure cookie set.
