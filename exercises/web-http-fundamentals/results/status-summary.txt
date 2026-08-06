@@ -1,0 +1,10 @@
+HTTP status summary
+===================
+
+custom-headers.txt: HTTP/1.0 200 OK
+forbidden-admin.txt: HTTP/1.0 403 Forbidden
+get-home.txt: HTTP/1.0 200 OK
+login-failed.txt: HTTP/1.0 401 Unauthorized
+login-success.txt: HTTP/1.0 200 OK
+not-found.txt: HTTP/1.0 404 Not Found
+set-cookie.txt: HTTP/1.0 200 OK

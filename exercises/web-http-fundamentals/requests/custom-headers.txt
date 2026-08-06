@@ -1,0 +1,13 @@
+HTTP/1.0 200 OK
+Server: CyberLabHTTP/1.0 Python/3.12.3
+Date: Thu, 06 Aug 2026 14:39:03 GMT
+Content-Type: application/json
+Content-Length: 109
+X-Lab-Server: CyberLab FIB
+
+{
+  "Host": "127.0.0.1:8080",
+  "Accept": "*/*",
+  "User-Agent": "CyberLabClient/1.0",
+  "X-Test": "hello"
+}

@@ -1,0 +1,8 @@
+HTTP/1.0 401 Unauthorized
+Server: CyberLabHTTP/1.0 Python/3.12.3
+Date: Thu, 06 Aug 2026 14:39:43 GMT
+Content-Type: text/plain
+Content-Length: 35
+X-Lab-Server: CyberLab FIB
+
+Unauthorized: invalid credentials.

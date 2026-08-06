@@ -1,0 +1,15 @@
+HTTP/1.0 200 OK
+Server: CyberLabHTTP/1.0 Python/3.12.3
+Date: Thu, 06 Aug 2026 14:37:48 GMT
+Content-Type: text/html
+Content-Length: 163
+X-Lab-Server: CyberLab FIB
+
+<!doctype html>
+<html>
+  <head><title>CyberLab HTTP Lab</title></head>
+  <body>
+    <h1>CyberLab HTTP Lab</h1>
+    <p>This is the home page.</p>
+  </body>
+</html>

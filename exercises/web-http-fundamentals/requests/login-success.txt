@@ -1,0 +1,9 @@
+HTTP/1.0 200 OK
+Server: CyberLabHTTP/1.0 Python/3.12.3
+Date: Thu, 06 Aug 2026 14:39:59 GMT
+Content-Type: text/plain
+Content-Length: 18
+X-Lab-Server: CyberLab FIB
+Set-Cookie: session=authenticated-lab-session; HttpOnly; SameSite=Lax
+
+Login successful.

@@ -1,0 +1,8 @@
+HTTP/1.0 403 Forbidden
+Server: CyberLabHTTP/1.0 Python/3.12.3
+Date: Thu, 06 Aug 2026 14:38:49 GMT
+Content-Type: text/plain
+Content-Length: 46
+X-Lab-Server: CyberLab FIB
+
+Forbidden: admin area requires authorization.
