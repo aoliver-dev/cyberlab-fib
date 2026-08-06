@@ -1,0 +1,13 @@
+
+========================================
+COOKIE SECURITY FLAG CHECK
+========================================
+File: exercises/web-cookies-sessions/requests/insecure-cookie.txt
+Set-Cookie: session=insecure-lab-session
+
+========================================
+FLAGS
+========================================
+[RISK] HttpOnly flag missing.
+[RISK] SameSite attribute missing.
+[WARNING] Secure flag missing. Sensitive cookies should use Secure over HTTPS.

@@ -1,0 +1,13 @@
+
+========================================
+COOKIE SECURITY FLAG CHECK
+========================================
+File: exercises/web-cookies-sessions/requests/secure-cookie.txt
+Set-Cookie: session=better-lab-session; HttpOnly; SameSite=Lax
+
+========================================
+FLAGS
+========================================
+[OK] HttpOnly flag present.
+[OK] SameSite attribute present.
+[WARNING] Secure flag missing. Sensitive cookies should use Secure over HTTPS.

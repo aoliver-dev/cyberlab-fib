@@ -1,0 +1,8 @@
+HTTP/1.0 401 Unauthorized
+Server: CyberLabSessionHTTP/1.0 Python/3.12.3
+Date: Thu, 06 Aug 2026 15:18:33 GMT
+Content-Type: text/plain
+Content-Length: 45
+X-Lab-Server: CyberLab FIB Sessions
+
+Unauthorized: valid session cookie required.

@@ -1,0 +1,8 @@
+HTTP/1.0 200 OK
+Server: CyberLabSessionHTTP/1.0 Python/3.12.3
+Date: Thu, 06 Aug 2026 15:27:48 GMT
+Content-Type: text/plain
+Content-Length: 40
+X-Lab-Server: CyberLab FIB Sessions
+
+Welcome to the authenticated dashboard.
