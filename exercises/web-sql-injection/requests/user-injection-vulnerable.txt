@@ -1,0 +1,10 @@
+HTTP/1.0 200 OK
+Server: CyberLabSQLi/1.0 Python/3.12.3
+Date: Mon, 17 Aug 2026 16:38:11 GMT
+Content-Type: text/plain
+Content-Length: 183
+X-Lab-Server: CyberLab SQL Injection
+
+user_id=1 username=admin role=admin email=admin@cyberlab.local
+user_id=2 username=alice role=user email=alice@cyberlab.local
+user_id=3 username=bob role=user email=bob@cyberlab.local

@@ -1,0 +1,9 @@
+HTTP/1.0 200 OK
+Server: CyberLabSQLi/1.0 Python/3.12.3
+Date: Mon, 17 Aug 2026 16:44:43 GMT
+Content-Type: text/plain
+Content-Length: 54
+X-Lab-Server: CyberLab SQL Injection
+
+Login successful.
+user_id=1 username=admin role=admin

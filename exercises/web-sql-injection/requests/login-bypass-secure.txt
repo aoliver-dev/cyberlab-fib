@@ -1,0 +1,8 @@
+HTTP/1.0 401 Unauthorized
+Server: CyberLabSQLi/1.0 Python/3.12.3
+Date: Mon, 17 Aug 2026 16:45:04 GMT
+Content-Type: text/plain
+Content-Length: 14
+X-Lab-Server: CyberLab SQL Injection
+
+Unauthorized.

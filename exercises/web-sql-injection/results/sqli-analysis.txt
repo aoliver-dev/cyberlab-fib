@@ -1,0 +1,17 @@
+
+========================================
+SQL INJECTION RESULT ANALYSIS
+========================================
+Directory: exercises/web-sql-injection/requests
+
+========================================
+USER LOOKUP INJECTION
+========================================
+[ALERT] Vulnerable endpoint returned 3 users for injected id parameter.
+[OK] Secure endpoint did not return users for injected id parameter.
+
+========================================
+LOGIN BYPASS TEST
+========================================
+[ALERT] Vulnerable login accepted SQL injection payload.
+[OK] Secure login rejected SQL injection payload.
