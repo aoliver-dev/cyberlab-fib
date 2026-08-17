@@ -1,0 +1,40 @@
+
+========================================
+BASIC STATISTICS
+========================================
+File: exercises/web-login-detection/logs/web-login.log
+Total login attempts: 14
+Failed login attempts: 12
+Successful login attempts: 2
+
+========================================
+FAILED LOGINS BY SOURCE IP
+========================================
+      5 203.0.113.10
+      5 198.51.100.77
+      2 192.0.2.44
+
+========================================
+FAILED LOGINS BY USER
+========================================
+      7 admin
+      1 eric
+      1 diana
+      1 charlie
+      1 bob
+      1 alice
+
+========================================
+WEB LOGIN BRUTE FORCE DETECTION
+========================================
+[ALERT] Possible login brute force from 203.0.113.10 against user 'admin' with 5 failed attempts.
+
+========================================
+WEB PASSWORD SPRAYING DETECTION
+========================================
+[ALERT] Possible password spraying from 198.51.100.77 against 5 different users.
+
+========================================
+SUCCESSFUL LOGINS AFTER FAILURES
+========================================
+[WARNING] Successful login for user 'admin' from 192.0.2.44 after 2 failed attempt(s).
