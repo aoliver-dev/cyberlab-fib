@@ -1,0 +1,8 @@
+SQL injection status summary
+============================
+
+login-bypass-secure.txt: HTTP/1.0 401 Unauthorized
+login-bypass-vulnerable.txt: HTTP/1.0 200 OK
+user-injection-secure.txt: HTTP/1.0 404 Not Found
+user-injection-vulnerable.txt: HTTP/1.0 200 OK
+user-normal-vulnerable.txt: HTTP/1.0 200 OK
