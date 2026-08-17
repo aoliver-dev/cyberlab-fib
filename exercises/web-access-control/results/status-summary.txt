@@ -1,0 +1,11 @@
+Access control status summary
+=============================
+
+admin-login.txt: HTTP/1.0 200 OK
+admin-panel.txt: HTTP/1.0 200 OK
+alice-admin-panel.txt: HTTP/1.0 403 Forbidden
+alice-bob-profile-secure.txt: HTTP/1.0 403 Forbidden
+alice-bob-profile-vulnerable.txt: HTTP/1.0 200 OK
+alice-login.txt: HTTP/1.0 200 OK
+alice-own-profile-secure.txt: HTTP/1.0 200 OK
+alice-own-profile-vulnerable.txt: HTTP/1.0 200 OK

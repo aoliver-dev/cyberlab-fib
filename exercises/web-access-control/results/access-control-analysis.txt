@@ -1,0 +1,22 @@
+
+========================================
+ACCESS CONTROL ANALYSIS
+========================================
+File: exercises/web-access-control/logs/access-control.log
+
+========================================
+POTENTIAL IDOR EVENTS
+========================================
+[ALERT] Possible IDOR: requester=2 accessed target=3 through vulnerable endpoint.
+
+========================================
+FORBIDDEN ACCESS EVENTS
+========================================
+2026-08-17T16:28:47.790343Z PROFILE_SECURE requester=2 target=3 result=forbidden
+2026-08-17T16:29:01.514540Z ADMIN_PANEL requester=2 result=forbidden
+
+========================================
+ADMIN PANEL EVENTS
+========================================
+2026-08-17T16:29:01.514540Z ADMIN_PANEL requester=2 result=forbidden
+2026-08-17T16:29:21.188282Z ADMIN_PANEL requester=1 result=allowed
