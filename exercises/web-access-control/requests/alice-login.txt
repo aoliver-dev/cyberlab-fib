@@ -1,0 +1,9 @@
+HTTP/1.0 200 OK
+Server: CyberLabAccessControl/1.0 Python/3.12.3
+Date: Mon, 17 Aug 2026 16:27:32 GMT
+Content-Type: text/plain
+Content-Length: 18
+X-Lab-Server: CyberLab Access Control
+Set-Cookie: session=alice-session; HttpOnly; SameSite=Lax
+
+Login successful.

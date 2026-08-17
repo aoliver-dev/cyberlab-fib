@@ -1,0 +1,11 @@
+HTTP/1.0 200 OK
+Server: CyberLabAccessControl/1.0 Python/3.12.3
+Date: Mon, 17 Aug 2026 16:27:48 GMT
+Content-Type: text/plain
+Content-Length: 62
+X-Lab-Server: CyberLab Access Control
+
+user_id=2
+username=alice
+role=user
+email=alice@cyberlab.local
